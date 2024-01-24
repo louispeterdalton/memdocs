@@ -300,7 +300,7 @@ In Microsoft Defender for Endpoint portal, as a security administrator:
    >
    > If you have the *Manage security settings in Security Center* permission in the Microsoft Defender for Endpoint portal, and are simultaneously enabled to view devices from all Device Groups (no [role-based access control](/microsoft-365/security/defender-endpoint/rbac) limits on your user permissions), you can also perform this action.
 
-2. Initially, we recommend testing the feature for each platform by selecting the platforms option for **On tagged devices**, and then tagging the devices with the `MDE-Management` tag.
+2. Initially, we recommend testing the feature for each platform by selecting the platforms option for **On tagged devices**, and then tagging the devices with the `MDE-Management` tag. The `MDE-Management` tag is hardcoded in the Defender XDR platform and should not be confused with Azure tags.
 
    > [!IMPORTANT]
    >
